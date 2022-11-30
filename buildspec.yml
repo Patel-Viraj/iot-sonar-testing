@@ -1,0 +1,26 @@
+
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "Install phase ..."
+    runtime-versions:
+      java: corretto11
+  pre_build:
+    commands:
+      - echo "Pre build phase ..."
+      - apt-get update
+      - apt-get install -y jq
+      - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.7.0.2747-linux.zip
+      - echo "Current path is >>>"
+      - sh $pwd
+      - unzip ./sonar-scanner-cli-4.7.0.2747-linux.zip
+      - ls $pwd
+      - export PATH=$PATH:./sonar-scanner-4.7.0.2747-linux/bin/
+  build:
+    commands:
+      - echo "Build phase ..."
+      - sonar-scanner -Dsonar.login=02c6bdf1e972cae47ad82f7efb7e41a24e0b5328 -Dsonar.host.url=https://sonarqube.sa-labs.info -Dsonar.projectKey=BLE-smart-lot-front-office-app
+  post_build:
+    commands:
+      - echo "Post build phase ..."

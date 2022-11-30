@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678186578279",
+    "firebase_url": "https://shyft-auto-uat.firebaseio.com",
+    "project_id": "shyft-auto-uat",
+    "storage_bucket": "shyft-auto-uat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678186578279:android:92ec632ab43f919a05ffc2",
+        "android_client_info": {
+          "package_name": "com.shyftauto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678186578279-34oqqbk3aqinmcd1d7haisupq5cu6e3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKe_8vo6qVOvTroJOywh6l9Y9gufvG4uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678186578279-17j0hnnnhmololovnja0h9do4nas1n6v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "678186578279-3qk3u91pt7nq46icaouocf7d7qa2hkgu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.futuredms.shyftDev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

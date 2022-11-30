@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/drawable_splash_bg.png.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/drawable/splash_bg.png"
+    },
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/bhumibachudasama/StudioProjects/front_office/build/app/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/bhumibachudasama/StudioProjects/front_office/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]
