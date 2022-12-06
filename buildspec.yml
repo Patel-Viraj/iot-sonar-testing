@@ -17,7 +17,7 @@ phases:
       - unzip ./sonar-scanner-cli-4.7.0.2747-linux.zip
       - ls $pwd
       - export PATH=$PATH:./sonar-scanner-4.7.0.2747-linux/bin/
-      - which flutter
+      - ls /opt/sonarqube/extensions/plugins
   build:
     commands:
       - echo "Build phase ..."
