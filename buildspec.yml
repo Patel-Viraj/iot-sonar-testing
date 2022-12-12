@@ -5,7 +5,7 @@ phases:
     commands:
       - echo "Install phase ..."
     runtime-versions:
-      java: openjdk11
+      java: openjdk8
   pre_build:
     commands:
       - echo "Pre build phase ..."
