@@ -16,14 +16,14 @@ phases:
       - sh $pwd
       - unzip ./sonar-scanner-cli-4.7.0.2747-linux.zip
       - export PATH=$PATH:./sonar-scanner-4.7.0.2747-linux/bin/
-#       - git clone https://github.com/flutter/flutter.git -b stable
-#       - export PATH="$PATH:`pwd`/flutter/bin"
-#       - flutter precache
-#       - flutter doctor
+      - git clone https://github.com/flutter/flutter.git -b stable
+      - export PATH="$PATH:`pwd`/flutter/bin"
+      - flutter precache
+      - flutter doctor
   build:
     commands:
       - echo "Build phase ..."
-      - sonar-scanner -Dsonar.projectKey=BLE-smart-lot-front-office-app -Dsonar.sources=. -Dsonar.host.url=https://sonarqube.sa-labs.info/ -Dsonar.login=02c6bdf1e972cae47ad82f7efb7e41a24e0b5328
+      - sonar-scanner -Dsonar.projectKey=BLE-smart-lot-front-office-app -Dsonar.host.url=https://sonarqube.sa-labs.info/ -Dsonar.login=02c6bdf1e972cae47ad82f7efb7e41a24e0b5328
   post_build:
     commands:
       - echo "Post build phase ..."
