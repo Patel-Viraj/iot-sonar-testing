@@ -26,6 +26,7 @@ phases:
   build:
     commands:
       - echo "Build phase ..."
+      - mvn test
       - mvn sonar:sonar -Dsonar.login=02c6bdf1e972cae47ad82f7efb7e41a24e0b5328 -Dsonar.host.url=https://sonarqube.sa-labs.info/ -Dsonar.projectKey=BLE-smart-lot-front-office-app
   post_build:
     commands:
