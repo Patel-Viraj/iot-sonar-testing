@@ -23,7 +23,7 @@ phases:
   build:
     commands:
       - echo "Build phase ..."
-      - sonar-scanner
+      - sonar-scanner -Dsonar.sources=. -Dsonar.projectKey=BLE-smart-lot-front-office-app  -Dsonar.host.url=https://sonarqube.sa-labs.info/ -Dsonar.login=02c6bdf1e972cae47ad82f7efb7e41a24e0b5328
   post_build:
     commands:
       - echo "Post build phase ..."
