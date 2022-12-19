@@ -1,0 +1,6 @@
+projectKey=BLE-smart-lot-front-office-app
+serverUrl=https://sonarqube.sa-labs.info
+serverVersion=9.4.0.54424
+dashboardUrl=https://sonarqube.sa-labs.info/dashboard?id=BLE-smart-lot-front-office-app
+ceTaskId=AYUpp_HNVuLWndmcOtix
+ceTaskUrl=https://sonarqube.sa-labs.info/api/ce/task?id=AYUpp_HNVuLWndmcOtix
